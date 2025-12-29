@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furry Friends | Tony Schleck</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;
+      background-color: #f3f4f6;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    .photo-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .photo-gallery img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease;
+    }
+
+    .photo-gallery img:hover {
+        transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="FurryFriends.html">Furry Friends</a>
+  </nav>
+
+  <header>
+    <h1>My favorite furry friends</h1>
+  </header>
+
+  <section>
+    <h2>Pebble the cat</h2>
+    <p>
+      Pebble is the most affectionate cat I've ever met. She loves scratches on the neck and face. 
+    </p>
+    <p style="margin-top: 1rem;">
+        Pebble is cared for by <a href="https://www.linkedin.com/in/tate-jodoin/" target="_blank" style="color: #0326c0; text-decoration: underline;">Tate Jodoin</a>. And sometimes Uncle Tony!
+    </p>
+    <div class="photo-gallery">
+        <img src="images/Pebble1.jpeg" alt="Pebble1" />
+        <img src="images/Pebble2.jpeg" alt="Pebble2" />
+        <img src="images/Pebble3.jpeg" alt="Pebble3" />
+        <img src="images/Pebble4.jpeg" alt="Pebble4" />
+        <img src="images/Pebble5.jpeg" alt="Pebble5" />
+        <img src="images/Pebble6.jpeg" alt="Pebble6" />
+    </div>
+  </section>
+
+    <section>
+        <h2>Charlie the dog</h2>
+            <p>
+                My sister Katie and her husband Will have the cutest dog named Charlie. He is almost 2!
+            </p>
+            <p style="margin-top: 1rem;">
+                He can be naughty sometimes! But remember he is just a puppy. 
+            </p>
+            <div class="photo-gallery">
+                <img src="images/Charlie1.jpeg" alt="Charlie1" />
+                <img src="images/Charlie2.jpeg" alt="Charlie2" />
+                <img src="images/Charlie3.jpeg" alt="Charlie3" />
+                <img src="images/Charlie4.jpeg" alt="Charlie4" />
+                <img src="images/Charlie5.jpeg" alt="Charlie5" />
+                <img src="images/Charlie6.jpeg" alt="Charlie6" />
+            </div>
+  </section>
+
+  <footer>
+    © 2025 Tony Schleck • Built using HTML & CSS + Firebase
+  </footer>
+
+</body>
+</html>

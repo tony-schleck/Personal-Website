@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Tony Schleck</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;
+      background-color: #f3f4f6;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    .photo-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .photo-gallery img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease;
+    }
+
+    .photo-gallery img:hover {
+        transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="FurryFriends.html">Furry Friends</a>
+  </nav>
+
+  <header>
+    <h1>About Tony</h1>
+  </header>
+
+  <section>
+    <h2>Who I Am</h2>
+    <p>
+        Hi, I’m <strong>Tony Schleck</strong>, a data-driven professional with a passion for analytics, logistics, and problem-solving.
+        I’ve worked in roles where data wasn’t just numbers — it was the story behind operations, performance, and efficiency.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Journey</h2>
+
+    <p>
+        I was born and raised in Edina, Minnesota. 
+    </p>
+    <p>
+        During high school I participated in Model UN, Varsity Lacrosse, Junior Gold Ice Hockey, and was a "SMATH" (Science & Math) peer tutor. 
+    </p>
+
+    <p style="margin-top: 1rem;">
+        After Minnesota, I began undergraduate studies at the University of Wisconsin - Madison (Go Badgers!) where I earned my Bachelor's of Science in Mathematics and Data Scicence.
+    </p> 
+    <p>
+    My favorite expirience at UW Madison was tutoring for the athletic department. There I met and tutored student athletes who were incredibly greatful for my time and effort. 
+    </p> 
+    
+    <p style="margin-top: 1rem;">
+      Shortly after graduation, I began working at <a href="https://www.lrca.com/" target="_blank" style="color: #0326c0; text-decoration: underline;">Christensen Associates</a> as a Data Analyst on the Postal team.
+    </p>
+  </section>
+
+  <section>
+    <h2>Beyond Work</h2>
+    <p>
+      Some of my hobbies include biking, running, and testing new recipes. 
+    </p>
+    <p style="margin-top: 1rem;">Here are photos of me biking in Madison:</p>
+    <div class="photo-gallery">
+        <img src="images/TonyBiking.jpeg" alt="TonyBiking1" />
+        <img src="images/TonyBiking2.jpeg" alt="TonyBiking2" />
+        <img src="images/TonyBiking3.jpeg" alt="TonyBiking3" />
+        <img src="images/TonyBiking4.jpeg" alt="TonyBiking4" />
+        <img src="images/TonyBiking5.jpeg" alt="TonyBiking5" />
+        <img src="images/TonyBiking6.jpeg" alt="TonyBiking6" />
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Tony Schleck • Built using HTML & CSS + Firebase
+  </footer>
+
+</body>
+</html>
